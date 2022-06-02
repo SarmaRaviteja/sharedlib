@@ -7,6 +7,7 @@ pipeline {
                 echo 'Hello World'
                 echo ' hii raviteja'
                 echo ' Hello Bridgentech'
+                echo ' web hooks'
             }
         }
     }
