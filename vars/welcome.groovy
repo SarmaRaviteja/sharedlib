@@ -1,6 +1,11 @@
-vars 
-| --- welcomeJob.groovy
+pipeline {
+    agent 1
 
-def call(String name = 'User') {
- echo "Welcome, ${name}."
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
 }
