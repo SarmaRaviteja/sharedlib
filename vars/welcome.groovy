@@ -1,3 +1,6 @@
-def call{name}{
-echo "Hey ${name}, how are you?"
+vars 
+| --- welcomeJob.groovy
+
+def call(String name = 'User') {
+ echo "Welcome, ${name}."
 }
