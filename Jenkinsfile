@@ -8,7 +8,7 @@ pipeline {
                 echo ' hii raviteja'
                 echo ' Hello Bridgentech'
                 echo ' web hooks'
-                echo "integration is done'
+                echo "integration is done';
             }
         }
     }
